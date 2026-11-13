@@ -1,0 +1,5 @@
+{
+  "my-long-skill": "Shorter one-line description: what it does and when to use it.",
+  "my-plugin:new-skill": "A skill you plan to install: simulate it before you install it.",
+  "old-plugin:unused-skill": null
+}
