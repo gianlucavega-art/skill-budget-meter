@@ -68,6 +68,26 @@ aggregate dall'autore:
 I modelli usati in queste sessioni hanno una finestra di contesto di 1M di token: circa 30.000 caratteri è ciò
 che valeva il budget dell'1% in questa configurazione.
 
+### Com'è andata dopo: da 37 skill senza descrizione a 0
+
+La stessa configurazione, comprese le sessioni successive, letta con `--storico --recenti 0` il 19/11/2026 (Claude
+Code da 2.1.321 a 2.1.326):
+
+| Quando (UTC) | Elenco | Skill | Senza descrizione |
+|---|---|---|---|
+| 13/11/2026, 15:49 | 30.001 caratteri | 91 | **37** |
+| 13/11/2026, 18:18 | 29.992 caratteri | 91 | **1** |
+| 13/11/2026, 19:23 | 28.553 caratteri | 86 | **0** |
+| 18/11/2026, 23:12 | 28.895 caratteri | 89 | **0** |
+
+Che cosa ha cambiato l'autore nel frattempo (resoconto suo: lo script mostra solo il risultato), in quest'ordine:
+ha accorciato le descrizioni a una riga ciascuna, provando ogni modifica con `--simula` prima di installarla, e le
+skill senza descrizione sono scese da 37 a 1; ha tolto cinque skill d'esempio che non usava (da 91 a 86 skill); ha
+alzato `skillListingBudgetFraction` a `0.02`. Gli 81 elenchi dalle 19:17 UTC del 13/11 alle 23:12 UTC del 18/11 (da
+27.654 a 29.327 caratteri, da 74 a 90 skill) hanno tenuto tutte le descrizioni e sarebbero stati anche nel vecchio
+budget di circa 30.000 caratteri: qui la frazione alzata è margine, non ciò che ha portato a 0. È la configurazione
+di un solo utente, non una promessa per la tua: lancia lo script sulle tue trascrizioni.
+
 ## Per cominciare
 
 Serve Python 3.10 o successivo. Scarica `skill_budget_meter.py` e lancia:

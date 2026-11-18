@@ -68,6 +68,26 @@ aggregated by the author:
 The models used in these sessions have a context window of 1M tokens: about 30,000 characters is what the 1%
 budget came to in this setup.
 
+### What happened next: from 37 skills without description to 0
+
+The same setup, including the later sessions, read with `--history --recent 0` on 19 Nov 2026 (Claude Code
+2.1.321 to 2.1.326):
+
+| When (UTC) | Listing | Skills | Without description |
+|---|---|---|---|
+| 13 Nov 2026, 15:49 | 30,001 characters | 91 | **37** |
+| 13 Nov 2026, 18:18 | 29,992 characters | 91 | **1** |
+| 13 Nov 2026, 19:23 | 28,553 characters | 86 | **0** |
+| 18 Nov 2026, 23:12 | 28,895 characters | 89 | **0** |
+
+What the author changed in between (the author's own account; the script shows only the result), in this order:
+the descriptions were shortened to one line each, every change checked with `--simulate` before installing it,
+which took the count from 37 to 1; five unused example skills were removed (91 → 86 skills); and
+`skillListingBudgetFraction` was raised to `0.02`. The 81 listings from 13 Nov, 19:17 UTC to 18 Nov, 23:12 UTC
+(27,654–29,327 characters, 74–90 skills) all kept every description, and all would have fit under the old budget
+of about 30,000 characters as well: here the raised fraction is headroom, not what brought the count to 0.
+One user's setup, not a promise for yours: run the script on your own transcripts.
+
 ## Quick start
 
 Requires Python 3.10 or later. Download `skill_budget_meter.py`, then run:
