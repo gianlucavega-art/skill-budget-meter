@@ -268,6 +268,9 @@ Questo strumento viene dal **Kit Regia** dell'autore, un insieme personale di sk
 ogni compito, sceglie le skill, il modello e l'effort giusti e tiene bassi i costi. Domande, idee o interesse
 per il kit: apri una Issue in questo repository.
 
+È disponibile anche un aiuto a pagamento: revisione delle tue skill e delle loro descrizioni, controlli di
+instradamento e impostazioni dei costi per Claude Code. Apri una Issue intitolata «Consulenza» e ti rispondo lì.
+
 ## Licenza
 
 MIT, © 2026 Gianluca Vega: vedi [LICENSE](LICENSE).

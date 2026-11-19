@@ -264,6 +264,9 @@ This tool comes from the author's **Kit Regia**, a personal set of skills and sc
 task, picks the right skills, model and effort and keeps costs down. Questions, ideas, or interest in the
 kit: open an Issue in this repository.
 
+Paid setup help is also available: an audit of your skills and their descriptions, routing checks and cost
+settings for Claude Code. Open an Issue titled "Consulting" and I will reply there.
+
 ## License
 
 MIT, © 2026 Gianluca Vega: see [LICENSE](LICENSE).
