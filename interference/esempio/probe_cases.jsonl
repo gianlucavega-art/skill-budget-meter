@@ -1,0 +1,7 @@
+# Synthetic probe cases: one JSON object per line, {"query": ..., "skills": [expected skill names]}
+{"query": "is this supplier invoice higher than the quote?", "skills": ["invoice-checker"]}
+{"query": "recompute the VAT on the plumber invoice", "skills": ["invoice-checker"]}
+{"query": "write the minutes of yesterday's meeting from the transcript", "skills": ["meeting-notes"]}
+{"query": "who has to do what after the call, and by when", "skills": ["meeting-notes"]}
+{"query": "plan a three-day trip to the trade fair with trains and a hotel", "skills": ["travel-planner"]}
+{"query": "book a hotel near the venue for the conference", "skills": ["travel-planner"]}

@@ -1,0 +1,3 @@
+{
+  "invoice-review": "Second reading of an invoice already checked: wording, payment terms, bank details, due date. Not for totals, VAT or prices against the quote. Trigger: payment terms"
+}
