@@ -14,6 +14,11 @@ Un solo file Python · solo libreria standard · sola lettura · nessuna rete.
 
 [Read me in English](README.md)
 
+> **Secondo modulo: [interference/](interference/).** Una skill nuova prende il posto di una vecchia
+> nell'instradamento? Controllo lessicale in sola lettura di nomi e descrizioni delle tue skill,
+> da fare prima di installare (metodo adattato da SKILL++,
+> [arXiv:2611.00544](https://arxiv.org/abs/2611.00544)).
+
 ## Perché conta
 
 All'avvio di una sessione Claude Code passa al modello l'elenco delle skill disponibili, una voce per skill:

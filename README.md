@@ -14,6 +14,10 @@ One Python file · standard library only · read-only · no network.
 
 [Leggimi in italiano](README.it.md)
 
+> **Second module: [interference/](interference/).** Does a new skill take an old one's place in routing?
+> A read-only lexical check of your skill names and descriptions, run before you install (method
+> adapted from SKILL++, [arXiv:2611.00544](https://arxiv.org/abs/2611.00544)).
+
 ## Why it matters
 
 When a session starts, Claude Code gives the model a listing of the available skills, one entry each:
