@@ -270,3 +270,8 @@ settings for Claude Code. Open an Issue titled "Consulting" and I will reply the
 ## License
 
 MIT, © 2026 Gianluca Vega: see [LICENSE](LICENSE).
+
+## Support the project
+
+If this tool saved you time, you can support its development on Ko-fi:
+[ko-fi.com/gianlucavega](https://ko-fi.com/gianlucavega). Thank you!
