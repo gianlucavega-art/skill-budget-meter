@@ -175,3 +175,5 @@ MIT, © 2026 Gianluca Vega: see [LICENSE](LICENSE).
 
 If this tool saved you time, you can support its development on Ko-fi:
 [ko-fi.com/gianlucavega](https://ko-fi.com/gianlucavega). Thank you!
+
+**Illustrated guide.** How to use this module and `skill_budget_meter.py` together, with copy-ready description templates and a pre-install checklist, is explained in a PDF guide (English + Italian, 12 €): [get the guide](https://buy.stripe.com/3cI7sNcuX1121ZyeRDawo00). The code stays free under the MIT licence.
