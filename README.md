@@ -275,3 +275,5 @@ MIT, © 2026 Gianluca Vega: see [LICENSE](LICENSE).
 
 If this tool saved you time, you can support its development on Ko-fi:
 [ko-fi.com/gianlucavega](https://ko-fi.com/gianlucavega). Thank you!
+
+**Illustrated guide.** The step-by-step method behind the 37 → 0 result, with copy-ready description templates and checklists, is available as a PDF guide (English + Italian, 12 €): [get the guide](https://buy.stripe.com/3cI7sNcuX1121ZyeRDawo00). The code stays free under the MIT licence.
