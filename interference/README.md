@@ -170,3 +170,8 @@ neighbour rank are theirs; the lexical adaptation, thresholds and any mistakes a
 ## License
 
 MIT, © 2026 Gianluca Vega: see [LICENSE](LICENSE).
+
+## Support the project
+
+If this tool saved you time, you can support its development on Ko-fi:
+[ko-fi.com/gianlucavega](https://ko-fi.com/gianlucavega). Thank you!
