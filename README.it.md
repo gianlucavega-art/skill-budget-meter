@@ -274,3 +274,8 @@ instradamento e impostazioni dei costi per Claude Code. Apri una Issue intitolat
 ## Licenza
 
 MIT, © 2026 Gianluca Vega: vedi [LICENSE](LICENSE).
+
+## Supporta il progetto
+
+Se questo strumento ti ha fatto risparmiare tempo, puoi sostenerne lo sviluppo su Ko-fi:
+[ko-fi.com/gianlucavega](https://ko-fi.com/gianlucavega). Grazie!
