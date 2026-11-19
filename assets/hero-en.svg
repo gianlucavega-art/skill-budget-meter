@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="380" viewBox="0 0 1200 380" role="img" aria-label="skill-budget-meter: Which of your Claude Code skills lost their description?">
+<title>skill-budget-meter</title>
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0f172a"/><stop offset=".55" stop-color="#1e1b4b"/><stop offset="1" stop-color="#4c1d95"/></linearGradient>
+<linearGradient id="title" x1="0" x2="1"><stop offset="0" stop-color="#67e8f9"/><stop offset=".5" stop-color="#a78bfa"/><stop offset="1" stop-color="#f472b6"/></linearGradient>
+<radialGradient id="glow" cx=".5" cy=".5" r=".5"><stop offset="0" stop-color="#8b5cf6" stop-opacity=".55"/><stop offset="1" stop-color="#8b5cf6" stop-opacity="0"/></radialGradient>
+<clipPath id="bar"><rect x="250" y="262" width="700" height="30" rx="15"/></clipPath>
+</defs>
+<style>
+text{font-family:'Segoe UI',system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif}
+.h1{font-size:64px;font-weight:800;fill:url(#title);letter-spacing:-1px}
+.tag{font-size:24px;fill:#e0e7ff}
+.pill{font-size:15px;fill:#e0e7ff;font-weight:600}
+.lbl{font-size:15px;fill:#c7d2fe}
+.st{font-size:19px;font-weight:700}
+.orb{animation:float 9s ease-in-out infinite}
+.orb2{animation:float 11s ease-in-out infinite reverse}
+@keyframes float{0%,100%{transform:translate(0,0)}50%{transform:translate(30px,-18px)}}
+.fill{animation:fill 8s cubic-bezier(.65,0,.35,1) infinite}
+@keyframes fill{0%{width:0;fill:#f43f5e}35%{width:700px;fill:#f43f5e}55%{width:700px;fill:#f43f5e}70%{width:610px;fill:#22c55e}100%{width:610px;fill:#22c55e}}
+.over{animation:over 8s linear infinite}
+@keyframes over{0%,30%{opacity:0}36%,55%{opacity:1}62%,100%{opacity:0}}
+.ok{animation:ok 8s linear infinite}
+@keyframes ok{0%,62%{opacity:0}70%,96%{opacity:1}100%{opacity:0}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+@media (prefers-reduced-motion: reduce){.fill{width:610px;fill:#22c55e}.over{opacity:0}.ok{opacity:1}}
+</style>
+<rect width="1200" height="380" rx="24" fill="url(#bg)"/>
+<circle class="orb" cx="160" cy="90" r="160" fill="url(#glow)"/>
+<circle class="orb2" cx="1060" cy="300" r="190" fill="url(#glow)"/>
+<text x="600" y="100" text-anchor="middle" class="h1">skill-budget-meter</text>
+<text x="600" y="145" text-anchor="middle" class="tag">Which of your Claude Code skills lost their description?</text>
+<rect x="294" y="168" width="153" height="34" rx="17" fill="#ffffff" fill-opacity=".10" stroke="#a5b4fc" stroke-opacity=".5"/><text x="370" y="190" text-anchor="middle" class="pill">1 Python file</text><rect x="459" y="168" width="180" height="34" rx="17" fill="#ffffff" fill-opacity=".10" stroke="#a5b4fc" stroke-opacity=".5"/><text x="549" y="190" text-anchor="middle" class="pill">standard library</text><rect x="651" y="168" width="117" height="34" rx="17" fill="#ffffff" fill-opacity=".10" stroke="#a5b4fc" stroke-opacity=".5"/><text x="710" y="190" text-anchor="middle" class="pill">read-only</text><rect x="780" y="168" width="126" height="34" rx="17" fill="#ffffff" fill-opacity=".10" stroke="#a5b4fc" stroke-opacity=".5"/><text x="843" y="190" text-anchor="middle" class="pill">no network</text>
+<text x="250" y="252" class="lbl">skill listing budget</text>
+<rect x="250" y="262" width="700" height="30" rx="15" fill="#ffffff" fill-opacity=".12"/>
+<g clip-path="url(#bar)"><rect class="fill" x="250" y="262" width="610" height="30" fill="#22c55e"/></g>
+<line x1="860" y1="254" x2="860" y2="300" stroke="#fde68a" stroke-width="2" stroke-dasharray="4 4"/>
+<text x="600" y="335" text-anchor="middle" class="st over" fill="#fda4af">⚠ 37 skills without description</text>
+<text x="600" y="335" text-anchor="middle" class="st ok" fill="#86efac">✔ 0 skills without description</text>
+</svg>

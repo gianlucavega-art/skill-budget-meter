@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="300" height="72" viewBox="0 0 300 72" role="img" aria-label="Star the repo">
+<title>Star the repo</title>
+<defs><linearGradient id="b" x1="0" x2="1"><stop offset="0" stop-color="#ca8a04"/><stop offset="1" stop-color="#ea580c"/></linearGradient></defs>
+<style>text{font-family:'Segoe UI',system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif}.glow{opacity:.3}@media (prefers-reduced-motion: reduce){*{animation:none!important}}</style>
+<rect class="glow" x="2" y="2" width="296" height="68" rx="34" fill="none" stroke="#ea580c" stroke-width="4"/>
+<rect x="8" y="8" width="284" height="56" rx="28" fill="url(#b)"/>
+<g transform="translate(46 36)"><path d="M0 -13l3.8 7.7 8.5 1.2-6.1 6 1.4 8.4L0 6.3l-7.6 4 1.4-8.4-6.1-6 8.5-1.2z" fill="#fff"/></g>
+<text x="170" y="44" text-anchor="middle" style="font-size:22px;font-weight:700;fill:#fff">Star the repo</text>
+</svg>

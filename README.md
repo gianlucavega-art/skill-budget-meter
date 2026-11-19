@@ -1,4 +1,15 @@
-# skill-budget-meter
+<!-- hero:start -->
+<p align="center">
+  <img src="assets/hero-en.svg" width="100%" alt="skill-budget-meter: which of your Claude Code skills lost their description? A budget bar overflows with 37 skills without description, then fits with 0.">
+</p>
+
+<p align="center"><a href="LICENSE"><img alt="MIT licence" src="https://img.shields.io/badge/licence-MIT-22c55e?style=for-the-badge"></a> <img alt="Python 3, standard library" src="https://img.shields.io/badge/python-3%20%C2%B7%20stdlib-6366f1?style=for-the-badge&logo=python&logoColor=white"> <img alt="read-only, no network" src="https://img.shields.io/badge/read--only-no%20network-0ea5e9?style=for-the-badge"> <a href="https://ko-fi.com/gianlucavega"><img alt="Ko-fi" src="https://img.shields.io/badge/Ko--fi-support-ff5e5b?style=for-the-badge&logo=ko-fi&logoColor=white"></a></p>
+
+<p align="center">
+  <b>🎯 Find the skills Claude can no longer see · 🧪 simulate shorter descriptions · 🔒 nothing leaves your PC</b><br>
+  <a href="#quick-start">🚀 Quick start</a> · <a href="#what-was-measured">📊 Real data</a> · <a href="#simulate-before-you-install">🧪 Simulate</a> · <a href="#support-the-project">💖 Support</a> · <a href="README.it.md">🇮🇹 Italiano</a>
+</p>
+<!-- hero:end -->
 
 How much of your Claude Code **skill listing** fits in its budget? This script measures it from the
 transcripts already on your computer, names the skills that lost their description, and lets you simulate
@@ -11,8 +22,6 @@ One Python file · standard library only · read-only · no network.
 > 1% of the model's context window. The default of 30,000 characters used here is the author's own
 > measurement (13 November 2026) with models that have a 1M-token context window: with another model or other
 > settings your cap is different, and any release may change the details.
-
-[Leggimi in italiano](README.it.md)
 
 > **Second module: [interference/](interference/).** Does a new skill take an old one's place in routing?
 > A read-only lexical check of your skill names and descriptions, run before you install (method
@@ -271,9 +280,49 @@ settings for Claude Code. Open an Issue titled "Consulting" and I will reply the
 
 MIT, © 2026 Gianluca Vega: see [LICENSE](LICENSE).
 
+<!-- support:start -->
 ## Support the project
 
-If this tool saved you time, you can support its development on Ko-fi:
-[ko-fi.com/gianlucavega](https://ko-fi.com/gianlucavega). Thank you!
+<p align="center">
+  <a href="https://buy.stripe.com/3cI7sNcuX1121ZyeRDawo00"><img src="assets/support-en.svg" width="100%" alt="37 to 0 in one day: step-by-step method, copy-ready description templates, checklists in English and Italian. PDF guide, 12 euro."></a>
+</p>
 
-**Illustrated guide.** The step-by-step method behind the 37 → 0 result, with copy-ready description templates and checklists, is available as a PDF guide (English + Italian, 12 €): [get the guide](https://buy.stripe.com/3cI7sNcuX1121ZyeRDawo00). The code stays free under the MIT licence.
+<h3 align="center">🤔 How did 37 description-less skills drop to 0 in a single day?</h3>
+
+<p align="center">The illustrated guide shows the exact path, step by step, so you can repeat it on your own setup.</p>
+
+<table align="center">
+<tr><td>📋</td><td><b>Step-by-step method</b> behind the 37 → 0 result</td></tr>
+<tr><td>✍️</td><td><b>Copy-ready description templates</b> to paste and adapt</td></tr>
+<tr><td>✅</td><td><b>Checklists</b> to run it yourself, in English and Italian</td></tr>
+</table>
+
+<p align="center">
+  <a href="https://buy.stripe.com/3cI7sNcuX1121ZyeRDawo00"><img src="assets/btn-guide-en.svg" height="64" alt="Get the guide, 12 euro"></a>
+</p>
+<p align="center"><sub>PDF guide · English + Italian · one-time 12 € · no subscription</sub></p>
+
+<br>
+
+<table>
+<tr>
+<td width="50%" align="center" valign="top">
+<h3>☕ Just want to say thanks?</h3>
+A Ko-fi coffee keeps the free updates coming.<br><br>
+<a href="https://ko-fi.com/gianlucavega"><img src="assets/btn-kofi-en.svg" height="56" alt="Buy me a coffee on Ko-fi"></a>
+</td>
+<td width="50%" align="center" valign="top">
+<h3>🛠️ Want it done for you?</h3>
+Paid audit of your skills and descriptions, routing checks and Claude Code cost settings.<br><br>
+<a href="https://github.com/gianlucavega-art/skill-budget-meter/issues/new?title=Consulting"><img src="assets/btn-consult-en.svg" height="56" alt="Book a setup audit: open an Issue titled Consulting"></a>
+</td>
+</tr>
+</table>
+
+<p align="center">
+  <a href="https://github.com/gianlucavega-art/skill-budget-meter/stargazers"><img src="assets/btn-star-en.svg" height="48" alt="Star the repository"></a><br>
+  <sub>⭐ A star helps other Claude Code users find this tool.</sub>
+</p>
+
+<p align="center"><b>P.S.</b> 💚 The code stays free under the MIT licence, and always will.</p>
+<!-- support:end -->
